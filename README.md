@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🌊 ReefPulse Ocean Intelligence
 
-## Project info
+> Real-time ocean and reef ecosystem monitoring and intelligence platform
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-reefpulse--ocean.vercel.app-blue)](https://reefpulse-ocean.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-JEROLD--creator653-lightgrey)](https://github.com/JEROLD-creator653/reefpulse-ocean-intelligence)
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## 📋 Table of Contents
 
-**Use Lovable**
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running Locally](#running-locally)
+- [Building for Production](#building-for-production)
+- [Deployment](#deployment)
+- [Environment Variables](#environment-variables)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🎯 Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+**ReefPulse Ocean Intelligence** is a sophisticated web application designed to monitor, analyze, and visualize real-time ocean and reef ecosystem data. The platform provides actionable intelligence for marine researchers, conservationists, and ocean enthusiasts.
 
-**Use your preferred IDE**
+### Live Application
+- 🌐 **URL**: [https://reefpulse-ocean.vercel.app/](https://reefpulse-ocean.vercel.app/)
+- 🚀 **Deployment**: Vercel
+- 📊 **Database**: Supabase
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🔍 **Real-time Monitoring**: Live tracking of ocean and reef conditions
+- 📈 **Data Analytics**: Advanced visualization and trend analysis
+- 🗺️ **Geospatial Mapping**: Interactive maps of reef locations
+- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
+- 🎨 **Modern UI**: Beautiful, intuitive user interface
+- ⚡ **Fast Performance**: Optimized with Vite for lightning-fast load times
+- 🔐 **Secure**: Type-safe with TypeScript
+- 🧪 **Well-Tested**: Vitest configured for unit testing
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Frontend
+- **React 18+** - UI framework
+- **TypeScript** - Type safety and better development experience
+- **Vite** - Ultra-fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn-ui** - High-quality React components
+- **PostCSS** - CSS processing
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Backend & Services
+- **Supabase** - PostgreSQL database and real-time API
+- **Node.js** - Runtime environment
+- **npm** - Package manager
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Development Tools
+- **ESLint** - Code linting
+- **Vitest** - Unit testing framework
+- **TypeScript** - Strict type checking
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Deployment
+- **Vercel** - Hosting and CI/CD platform
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📁 Project Structure
